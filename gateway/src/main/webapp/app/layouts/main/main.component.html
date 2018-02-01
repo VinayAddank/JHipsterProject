@@ -1,0 +1,23 @@
+<!-- 
+    Basic structure for the layout 
+    layout consist of top nav bar and left menu bar Blue
+    @author Manish Sharma and Narayan Palaei
+    Created on 30th Janauary 2018
+-->
+
+<jhi-page-ribbon></jhi-page-ribbon>
+<div class="wrapper">
+    <div class="row">
+        <!-- content section for left menu bar -->
+        <div class="col-md-3">
+            <router-outlet name="navbar"></router-outlet>
+        </div>
+
+        <!-- content section for dynamic loading -->
+        <div class="col-md-9">                          
+            <!-- <router-outlet></router-outlet>
+            <router-outlet name="popup"></router-outlet>             -->
+        </div>
+    </div>    
+    <jhi-footer></jhi-footer>
+</div>
